@@ -1,0 +1,100 @@
+.body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*HEADER*/
+.navbar-brand {
+    font-size: 1.5em;
+}
+
+.h4 {
+    text-align: center;
+    cursor: pointer;
+}
+
+.h4:hover {
+    background-color: #424040;
+}
+
+/*MAIN*/
+.container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.col-md-12 {
+    margin-top: 15px;
+}
+
+.main-title {
+    padding-top: 20px;
+    align-items: center;
+    font-size: 40px;
+    text-shadow: .5px .5px .5px #222;
+    font-weight: bold;
+
+}
+
+.col-md-12 {
+    background-color: rgb(37, 37, 37);
+    text-align: center;
+}
+
+.title-container {
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+
+.description-container {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+/********** Small devices only **********/
+@media (min-width: 576px) and (max-width: 991px) {
+    .main-title {
+        padding-top: 15px;
+        align-items: center;
+        font-size: 30px;
+        text-shadow: .5px .5px .5px #222;
+        font-weight: bold;
+    }
+
+    .title-container {
+        font-size: 20px;
+        color: rgb(255, 255, 255);
+    }
+
+    .description-container {
+        font-size: 15px;
+        color: rgb(255, 255, 255);
+    }
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 575px) {
+    .main-title {
+        padding-top: 15px;
+        align-items: center;
+        font-size: 30px;
+        text-shadow: .5px .5px .5px #222;
+        font-weight: bold;
+    }
+
+    .title-container {
+        font-size: 20px;
+        color: rgb(255, 255, 255);
+    }
+
+    .description-container {
+        font-size: 15px;
+        color: rgb(255, 255, 255);
+    }
+}
